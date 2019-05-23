@@ -11,7 +11,7 @@
           <img src="img/nerds-logo.svg" alt="Логотип студии Нёрдс" width="160" height="65">
         </a>
         <ul class="site-navigation">
-          <li><a href="studio.html" tabindex="0">Студия</a></li>
+          <li><a href="studio.html">Студия</a></li>
           <li><a href="clientage.html">Клиенты</a></li>
           <li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
           <li><a href="contacts.html">Контакты</a></li>
@@ -24,20 +24,20 @@
     	<h1 class="page-title">Магазин готовых шабллонов</h1>
     	<section class="filters">
     		<h2 class="visually-hidden">фильтр шаблонов</h2>
-    		<form class="filter" method="get" action="https://echo.htmlacademy.ru">
+    		<div class="filter" method="get" action="https://echo.htmlacademy.ru">
     			<fieldset>
     				<legend>Сетка:</legend>
     				<ul>
     					<li class="filter-option">
-    						<input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type" value="adaptive">
+    						<input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type" value="adaptive" id="filter-adaptive">
     						<label for="filter-adaptive">Адаптивная</label>
     					</li>
     					<li class="filter-option">
-                            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type" value="fix" checked>
+                            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type" value="fix" checked id="filter-fix">
     						<label for="filter-fix">Фиксированная</label>
     					</li>
     					<li class="filter-option">
-                            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type" value="stretching">
+                            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type" value="stretching" id="filter-stretching">
     						<label for="filter-stretching">Резиновая</label>
     					</li>
     				</ul>
@@ -70,7 +70,7 @@
     			    <button type="submit" class="filter-button button">
                         Показать
                     </button>
-    		</form>
+    		</div>
     	</section>
 
     	<section class="catalog">
@@ -132,12 +132,12 @@
         	<p>
         		<img src="img/map.png" alt="офис компании по адресу ул.Большая Конюшенная 19.8, Санкт-Петербург" width="1440" height="416">
         	</p>
-    	    <form>
+    	    <div class="contacts">
     	    	<p>Nёrds disign studio</p>
     	    	<p>191186, Санкт-Петербург, ул.Б. Конюшенная, д. 19/8</p>
     	    	<a href="tel:+78122757575">тел. +7(812)275-75-75</a>
     	        <a href="#" class="button">Напишите нам</a>
-    	    </form>
+    	    </div>
     	</section>
 
     	<section class="appointment">
