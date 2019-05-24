@@ -24,7 +24,20 @@
     	<h1 class="page-title">Магазин готовых шабллонов</h1>
     	<section class="filters">
     		<h2 class="visually-hidden">фильтр шаблонов</h2>
-    		<div class="filter" method="get" action="https://echo.htmlacademy.ru">
+    		<form class="filter" method="get" action="https://echo.htmlacademy.ru">
+                <fieldset class="price">
+                    <legend>Стоимость:</legend>
+                    <ul>
+                        <li>
+                            <label for="from">От</label>
+                            <input type="text" name="from" value="" placeholder="0" id="from">
+                        </li>
+                        <li>
+                            <label for="to">До</label>
+                            <input type="text" name="from" value="" placeholder="15000" id="to">
+                        </li>
+                    </ul>
+                </fieldset>
     			<fieldset>
     				<legend>Сетка:</legend>
     				<ul>
@@ -70,7 +83,7 @@
     			    <button type="submit" class="filter-button button">
                         Показать
                     </button>
-    		</div>
+    		</form>
     	</section>
 
     	<section class="catalog">
