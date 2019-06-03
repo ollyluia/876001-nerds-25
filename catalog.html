@@ -3,6 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>catalog</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 	<header class="main-header">
@@ -21,26 +24,26 @@
     </header>
 
     <main class="container">
-    	<h1 class="page-title">Магазин готовых шабллонов</h1>
+    	<h1 class="page-title">Магазин готовых шаблонов</h1>
     	<section class="filters">
     		<h2 class="visually-hidden">фильтр шаблонов</h2>
     		<form class="filter" method="get" action="https://echo.htmlacademy.ru">
                 <fieldset class="price">
                     <legend>Стоимость:</legend>
-                    <ul>
+                    <ul class="from-to">
                         <li>
-                            <label for="from">От</label>
+                            <label for="from" class="from">От</label>
                             <input type="text" name="from" value="" placeholder="0" id="from">
                         </li>
                         <li>
-                            <label for="to">До</label>
+                            <label for="to" class="to">До</label>
                             <input type="text" name="from" value="" placeholder="15000" id="to">
                         </li>
                     </ul>
                 </fieldset>
-    			<fieldset>
+    			<fieldset class="setka">
     				<legend>Сетка:</legend>
-    				<ul>
+    				<ul class="filter-options">
     					<li class="filter-option">
     						<input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type" value="adaptive" id="filter-adaptive">
     						<label for="filter-adaptive">Адаптивная</label>
@@ -55,9 +58,9 @@
     					</li>
     				</ul>
     			</fieldset>
-    			<fieldset>
+    			<fieldset class="special">
     				<legend>Особенности:</legend>
-    				<ul>
+    				<ul class="filter-options">
     					<li class="filter-option">
     						<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked> 
     						<label for="filter-slider">Слайдер</label>
@@ -93,6 +96,7 @@
             		<h3>
             			<a href="catalog-item.html">Седона</a>
             		</h3>
+                    <p>Информационный сайт для туристов</p>
             		<img src="img/sedona.jpg" width="360" height="576" alt="седона">    
             		<a href="#" class="button">9900 РУБ.</a>
             	</li>
@@ -100,6 +104,7 @@
             		<h3>
             			<a href="catalog-item.html">Pink</a>
             		</h3>
+                    <p>Продуктивный лендинг приложения для iOS и Android</p>
             		<img src="img/img-pink.jpg" width="360" height="576" alt="пинк">
             		<a href="#" class="button">цена</a>           		
             	</li>
@@ -107,13 +112,15 @@
             		<h3>
             			<a href="catalog-item.html">Borodinski</a>
             		</h3>
+                    <p>Сайт салона красоты. Для мужчин, да.</p>
             		<img src="img/img-barbershop.jpg" width="360" height="576" alt="барбершоп">
             		<a href="#" class="button">цена</a>
             	</li>
             	<li class="catalog-item">
             		<h3>
             			<a href="catalog-item.html">Mishka</a>
-            		</h3>576
+            		</h3>
+                    <p>Интернет-магазин вязанных игрушек</p>
             	    <img src="img/img-mishka.jpg" width="360" height="576" alt="мишка">
             		<a href="#" class="button">цена</a>
             	</li>
@@ -121,15 +128,17 @@
             		<h3>
             			<a href="catalog-item.html">A+</a>
             		</h3>
+                    <p>Лендинг курсов повышения квалификации</p>
             	    <img src="img/img-aplus.jpg" width="360" height="576" alt="а плсю">
-            			<a href="#" class="button">цена</a>
+            		<a href="#" class="button">цена</a>
             	</li>
             	<li class="catalog-item">
             		<h3>
             			<a href="catalog-item.html">Кваст</a>
             		</h3>
+                    <p>Промо-сайт производителя крафтового кваса</p>
             	    <img src="img/img-kvast.jpg" width="360" height="576" alt="кваст">
-            			<a href="#" class="button">цена</a>
+            		<a href="#" class="button">цена</a>
             	</li>
             </ul>
             <ul class="pagination-list">
@@ -176,7 +185,7 @@
 
     </main>
 
-     <footer class="footer-catalog">
+     <footer class="main-footer">
         <b>Давайте дружить, это выгодно!</b>
         <p>Скидка 10% для друзей из социальных сетей.</p>
         <ul>

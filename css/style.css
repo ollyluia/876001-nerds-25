@@ -1,0 +1,378 @@
+body {
+  margin: 0;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: black;
+
+  background-color: white;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  font: inherit;
+  text-align: center;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color: black;
+
+  background-color: #eeeeee;
+}
+
+.site-navigation, 
+.main-footer ul
+{
+  list-style: none;
+}
+
+.site-navigation a,
+.basket {
+  color: black;
+  text-transform: uppercase;
+}
+
+.site-navigation a:focus,
+.site-navigation a:hover,
+.basket :focus,
+.basket :hover
+ {
+  color: #fb565a;
+}
+
+.service-items,
+.percent-block,
+.main-footer,
+.about-us {
+  list-style: none;
+}
+
+/*slider--------------------*/
+.slider{
+	background-color: #eeeeee; 
+}
+
+.feature {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: medium;
+  color: black;
+}
+
+.feature-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+}
+
+.slider .button {
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #fb565a
+}
+
+.slider a:focus,
+.slider a:hover
+{
+	background-color: #e74246;
+}
+
+.slider a:active {
+	background-color: #d7373b;
+	color: #e37376;
+}
+
+
+/* услуги------------------------*/
+
+.service-items h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: medium;
+}
+
+.service-items p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+}
+
+.service-items .button {
+	font-size: 16px;
+  line-height: 18px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #fb565a
+}
+
+.service-items .button:focus,
+.service-items .button:hover
+{
+	background-color: #e74246;
+}
+.service-items .button:active {
+	background-color: #d7373b;
+	color: #e37376;
+}
+
+.button2 {
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #00ca74
+}
+
+.button2:focus,
+.button2:hover
+{
+	background-color: #00bc6c;
+}
+.button2:active {
+	background-color: #00aa62;
+	color: #4dc491;
+}
+
+.button3 {
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #efc84a
+}
+
+.button3:focus,
+.button3:hover
+{
+	background-color: #eab534;
+}
+.button3:active {
+	background-color: #e5a722;
+	color: #edc265;
+}
+
+/* мы маленькя студия----------------*/
+
+
+.about h2 {
+  font-size: 45px;
+  line-height: 45px;
+  color: black;
+  font-weight: medium;
+} 
+
+.principles {
+	font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+}
+
+.order-types {
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+ .order-type {
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+}
+
+.percent-block b {
+  font-size: 45px;
+  line-height: 45px;
+  color: black;
+  font-weight: medium;
+  text-transform: uppercase;
+}
+
+.percent-description {
+  font-size: 16px;
+  line-height: 18px;
+  color: #283136;
+}
+
+.percent {
+  color: black;
+  font-size: 45px;
+  line-height: 10px;
+  font-weight: bold;
+}
+
+/*карта-------------*/
+
+.name-for-contacts {
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.adress,
+.number
+ {
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.contacts .button {
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #fb565a
+}
+
+.contacts .button:focus,
+.contacts .button:hover
+{
+	background-color: #e74246;
+}
+
+.contacts .button:active {
+	background-color: #d7373b;
+	color: #e37376;
+}
+
+/*form----------------------------*/
+
+.appointment h2 {
+  color: black;
+  font-weight: medium;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.appointment-item {
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+  font-weight: bold;
+  font: inherit;
+  background-color: transparent;
+}
+
+.appointment-item input {
+	font: inherit;
+	border: 2px solid #d7dcde;
+	border-radius: 3px;
+}
+
+.appointment .button {
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #fb565a;
+  border: none;
+  font: inherit;
+}
+
+.appointment .button:focus,
+.appointment .button:hover
+{
+	background-color: #e74246;
+}
+
+.appointment .button:active {
+	background-color: #d7373b;
+	color: #e37376;
+	text-transform: uppercase;
+}
+
+/*foooter--------------------*/
+
+.main-footer b {
+  font-size: 36px;
+  line-height: 36px;
+  color: black;
+  font-weight: bold;
+  t
+}
+
+.main-footer p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #444444;
+}
+
+
+/*filters---------------------*/
+
+.page-title {
+  font-size: 55px;
+  line-height: 55px;
+  color: black;
+  font-weight: medium;
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+.price,
+.special,
+.setka
+ {
+	border: none;
+}
+
+.filter-options,
+.from-to,
+.pagination-list,
+.catalog-list
+ {
+	list-style: none;
+}
+
+.filters legend {
+	font-size: 18px;
+	line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.filter-option label {
+	font-size: 16px;
+	line-height: 20px;
+	color: #283136;
+}
+
+
+
+
+.from,
+.to
+ {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(40, 49, 54);
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
