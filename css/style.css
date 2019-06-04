@@ -4,7 +4,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 700;
   color: black;
 
   background-color: white;
@@ -19,13 +18,18 @@ a {
 .button {
   font: inherit;
   text-align: center;
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #fb565a;
+  border: none;
 }
 
 .main-navigation {
   font-size: 16px;
   line-height: 30px;
   color: black;
-
   background-color: #eeeeee;
 }
 
@@ -43,8 +47,8 @@ a {
 
 .site-navigation a:focus,
 .site-navigation a:hover,
-.basket :focus,
-.basket :hover
+.basket:focus,
+.basket:hover
  {
   color: #fb565a;
 }
@@ -74,6 +78,7 @@ a {
   color: #283136;
 }
 
+/*
 .slider .button {
   font-size: 16px;
   line-height: 18px;
@@ -81,7 +86,7 @@ a {
   text-transform: uppercase;
   background-color: #fb565a
 }
-
+*/
 .slider a:focus,
 .slider a:hover
 {
@@ -110,20 +115,12 @@ a {
   color: #283136;
 }
 
-.service-items .button {
-	font-size: 16px;
-  line-height: 18px;
-  color: white;
-  text-transform: uppercase;
-  background-color: #fb565a
-}
-
-.service-items .button:focus,
-.service-items .button:hover
+.button:focus,
+.button:hover
 {
 	background-color: #e74246;
 }
-.service-items .button:active {
+.button:active {
 	background-color: #d7373b;
 	color: #e37376;
 }
@@ -232,25 +229,6 @@ a {
   color: #666666;
 }
 
-.contacts .button {
-  font-size: 16px;
-  line-height: 18px;
-  color: white;
-  text-transform: uppercase;
-  background-color: #fb565a
-}
-
-.contacts .button:focus,
-.contacts .button:hover
-{
-	background-color: #e74246;
-}
-
-.contacts .button:active {
-	background-color: #d7373b;
-	color: #e37376;
-}
-
 /*form----------------------------*/
 
 .appointment h2 {
@@ -275,27 +253,6 @@ a {
 	border-radius: 3px;
 }
 
-.appointment .button {
-  font-size: 16px;
-  line-height: 18px;
-  color: white;
-  text-transform: uppercase;
-  background-color: #fb565a;
-  border: none;
-  font: inherit;
-}
-
-.appointment .button:focus,
-.appointment .button:hover
-{
-	background-color: #e74246;
-}
-
-.appointment .button:active {
-	background-color: #d7373b;
-	color: #e37376;
-	text-transform: uppercase;
-}
 
 /*foooter--------------------*/
 
@@ -354,8 +311,6 @@ a {
 }
 
 
-
-
 .from,
 .to
  {
@@ -366,13 +321,39 @@ a {
   text-transform: uppercase;
 }
 
+.filter-button,
+.pagination-item
+ {
+  background-color: #eeeeee;
+  color: black;
+  font-weight: medium;
+  text-transform: uppercase;
+}
 
+.name-project {
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #eeeeee; 
+}
 
+.catalog p {
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+  background-color: #eeeeee;
+}
 
+.pagination-item-current {
+	background-color: white;
+	border: 2px solid #d7dcde;
+}
 
-
-
-
+.pagination-list a {
+	color: black;
+}
 
 
 
