@@ -68,7 +68,7 @@ a {
 .feature {
   font-size: 55px;
   line-height: 55px;
-  font-weight: medium;
+  font-weight: 500;
   color: black;
 }
 
@@ -106,7 +106,7 @@ a {
   line-height: 30px;
   color: black;
   text-transform: uppercase;
-  font-weight: medium;
+  font-weight: 500;
 }
 
 .service-items p {
@@ -168,7 +168,7 @@ a {
   font-size: 45px;
   line-height: 45px;
   color: black;
-  font-weight: medium;
+  font-weight: 500;
 } 
 
 .principles {
@@ -191,11 +191,12 @@ a {
 }
 
 .percent-block b {
-  font-size: 45px;
-  line-height: 45px;
+  font-size: 16px;
+  line-height: 24px;
   color: black;
-  font-weight: medium;
+  font-weight: bold;
   text-transform: uppercase;
+
 }
 
 .percent-description {
@@ -221,9 +222,7 @@ a {
   text-transform: uppercase;
 }
 
-.adress,
-.number
- {
+.adress {
   font-size: 16px;
   line-height: 18px;
   color: #666666;
@@ -233,7 +232,7 @@ a {
 
 .appointment h2 {
   color: black;
-  font-weight: medium;
+  font-weight: 500;
   font-size: 45px;
   line-height: 45px;
 }
@@ -277,7 +276,7 @@ a {
   font-size: 55px;
   line-height: 55px;
   color: black;
-  font-weight: medium;
+  font-weight: 500;
   background-color: #eeeeee;
   text-align: center;
 }
@@ -321,12 +320,20 @@ a {
   text-transform: uppercase;
 }
 
+.input-from {
+   font-size: 16px;
+   line-height: 22px;
+   background-color: #eeeeee;
+   color: #283136;
+   border: none;
+}
+
 .filter-button,
-.pagination-item
+.pagination-item a
  {
   background-color: #eeeeee;
   color: black;
-  font-weight: medium;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -343,10 +350,9 @@ a {
   font-size: 16px;
   line-height: 18px;
   color: #666666;
-  background-color: #eeeeee;
 }
 
-.pagination-item-current {
+.pagination-item-current a {
 	background-color: white;
 	border: 2px solid #d7dcde;
 }
@@ -355,5 +361,6 @@ a {
 	color: black;
 }
 
-
-
+.catalog-information {
+	background-color: #eeeeee;
+}

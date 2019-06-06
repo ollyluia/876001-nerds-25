@@ -33,11 +33,11 @@
                     <ul class="from-to">
                         <li>
                             <label for="from" class="from">От</label>
-                            <input type="text" name="from" value="" placeholder="0" id="from">
+                            <input type="text" name="from" value="" placeholder="0" id="from" class="input-from">
                         </li>
                         <li>
                             <label for="to" class="to">До</label>
-                            <input type="text" name="from" value="" placeholder="15000" id="to">
+                            <input type="text" name="from" value="" placeholder="15000" id="to" class="input-from">
                         </li>
                     </ul>
                 </fieldset>
@@ -93,52 +93,64 @@
             <h2 class="visually-hidden">Шаблоны</h2>
             <ul class="catalog-list">
             	<li class="catalog-item">
-            		<h3>
-            			<a href="catalog-item.html" class="name-project">Седона</a>
-            		</h3>
-                    <p>Информационный сайт для туристов</p>
-            		<img src="img/sedona.jpg" width="360" height="576" alt="седона">    
-            		<a href="#" class="button">9900 РУБ.</a>
+                    <img src="img/sedona.jpg" width="360" height="576" alt="седона">    
+                    <div class="catalog-information">
+            		    <h3>
+            			    <a href="catalog-item.html" class="name-project">Седона</a>
+            		    </h3>
+                        <p>Информационный сайт для туристов</p>
+                        <a href="#" class="button">9900 РУБ.</a>
+                    </div>
             	</li>
             	<li class="catalog-item">
-            		<h3>
-            			<a href="catalog-item.html" class="name-project">Pink</a>
-            		</h3>
-                    <p>Продуктивный лендинг приложения для iOS и Android</p>
-            		<img src="img/img-pink.jpg" width="360" height="576" alt="пинк">
-            		<a href="#" class="button">цена</a>           		
+                    <img src="img/img-pink.jpg" width="360" height="576" alt="пинк">
+                    <div class="catalog-information">
+            		    <h3>
+            			    <a href="catalog-item.html" class="name-project">Pink</a>
+            		    </h3>
+                        <p>Продуктивный лендинг приложения для iOS и Android</p>
+                        <a href="#" class="button">цена</a>
+                    </div>
             	</li>
             	<li class="catalog-item">
-            		<h3>
-            			<a href="catalog-item.html" class="name-project">Borodinski</a>
-            		</h3>
-                    <p>Сайт салона красоты. Для мужчин, да.</p>
-            		<img src="img/img-barbershop.jpg" width="360" height="576" alt="барбершоп">
-            		<a href="#" class="button">цена</a>
+                    <img src="img/img-barbershop.jpg" width="360" height="576" alt="барбершоп">
+                    <div class="catalog-information">
+            		    <h3>
+            			    <a href="catalog-item.html" class="name-project">Borodinski</a>
+            		    </h3> 
+                        <p>Сайт салона красоты. Для мужчин, да.</p>
+                        <a href="#" class="button">цена</a>
+                    </div>
             	</li>
             	<li class="catalog-item">
-            		<h3>
-            			<a href="catalog-item.html" class="name-project">Mishka</a>
-            		</h3>
-                    <p>Интернет-магазин вязанных игрушек</p>
-            	    <img src="img/img-mishka.jpg" width="360" height="576" alt="мишка">
-            		<a href="#" class="button">цена</a>
+                    <img src="img/img-mishka.jpg" width="360" height="576" alt="мишка">
+                    <div class="catalog-information">
+            		    <h3>
+            			    <a href="catalog-item.html" class="name-project">Mishka</a>
+            		    </h3>
+                        <p>Интернет-магазин вязанных игрушек</p>
+                        <a href="#" class="button">цена</a>
+                    </div>
             	</li>
             	<li class="catalog-item">
-            		<h3>
-            			<a href="catalog-item.html" class="name-project">A+</a>
-            		</h3>
-                    <p>Лендинг курсов повышения квалификации</p>
-            	    <img src="img/img-aplus.jpg" width="360" height="576" alt="а плсю">
-            		<a href="#" class="button">цена</a>
+                    <img src="img/img-aplus.jpg" width="360" height="576" alt="а плсю">
+                    <div class="catalog-information">
+            		    <h3>
+            			    <a href="catalog-item.html" class="name-project">A+</a>
+            		    </h3>
+                        <p>Лендинг курсов повышения квалификации</p>
+                        <a href="#" class="button">цена</a>
+                    </div>
             	</li>
             	<li class="catalog-item">
-            		<h3>
-            			<a href="catalog-item.html" class="name-project">Кваст</a>
-            		</h3>
-                    <p>Промо-сайт производителя крафтового кваса</p>
-            	    <img src="img/img-kvast.jpg" width="360" height="576" alt="кваст">
-            		<a href="#" class="button">цена</a>
+                    <img src="img/img-kvast.jpg" width="360" height="576" alt="кваст">
+                    <div class="catalog-information">
+            		    <h3>
+            			    <a href="catalog-item.html" class="name-project">Кваст</a>
+            		    </h3>
+                        <p>Промо-сайт производителя крафтового кваса</p>
+                        <a href="#" class="button">цена</a>
+                    </div>
             	</li>
             </ul>
             <ul class="pagination-list">
@@ -156,8 +168,8 @@
         	</p>
     	    <div class="contacts">
     	    	<p>Nёrds disign studio</p>
-    	    	<p>191186, Санкт-Петербург, ул.Б. Конюшенная, д. 19/8</p>
-    	    	<a href="tel:+78122757575" class="number">тел. +7(812)275-75-75</a>
+    	    	<p class="adress">191186, Санкт-Петербург, ул.Б. Конюшенная, д. 19/8</p>
+    	    	<a href="tel:+78122757575" class="adress">тел. +7(812)275-75-75</a>
     	        <a href="#" class="button">Напишите нам</a>
     	    </div>
     	</section>
