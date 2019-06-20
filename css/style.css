@@ -373,17 +373,23 @@ a {
 }
 
 .main-navigation {
-    background-color: #eeeeee;
+    /*background-color: #eeeeee;*/
     display: flex;
     justify-content: space-between;
     width: 1160px;
     align-items: center;
     margin-right: auto;
     margin-left: auto;
-    height: 132px;
+    /*height: 114px;*/
     /*margin-top: 49px;*/
     margin-top: 0;
     margin-bottom: 0;
+    padding-top: 49px;
+}
+
+.main-navigation-wrapper {
+	width: 100%;
+	background-color: #eeeeee;
 }
 
 .main-header-logo {
@@ -392,7 +398,7 @@ a {
 }
 
 .main-header-logo img {
-	margin-top: 49px;
+	/*margin-top: 49px;*/
 }
 
 .site-navigation {
@@ -413,7 +419,7 @@ a {
 /*-------------SLIDER-------------------------------------------*/
 
 .container {
-  width: 1200px;
+  width: 1160px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -558,6 +564,7 @@ a {
 	width: 1440px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 80px;
 }
 
 .service-items {
@@ -664,13 +671,15 @@ a {
 
 /*-----------------map-----------------------*/
 
-.map {
+.modal-map {
     width: 1440px;
     margin:  0;
     padding: 0;
+    margin-right: auto;
+    margin-left: auto;
     box-sizing: content-box;
-    display: block;
-    justify-content: center;
+    /*display: block;
+    justify-content: center;*/
 }
 
 /*-----------------fooooooooter--------------*/
@@ -682,6 +691,8 @@ a {
 	margin-left: 140px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 69px;
+	margin-bottom: 78px;
 }
 
 .main-footer ul{
@@ -706,10 +717,72 @@ a {
 
 
 .page-title {
-	margin-top: 85px;
-	padding-bottom: 48px;
+	margin-top: 93px;
+	padding-bottom: 93px;
+	margin-bottom: 0;
+	margin-bottom: 0;
 	box-sizing: border-box;
 }
+
+.filter {
+	width: 260px;
+	margin-top: 60px;
+}
+
+.catalog-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+
+.catalog-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.catalog {
+	width: 760px;
+}
+
+.catalog-columns {
+	display: flex;
+	justify-content: space-between;
+}
+
+.catalog-item {
+	width: 360px;
+	margin-bottom: 33px;
+	margin-right: 40px;
+}
+
+.pagination-list {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+  display: flex;
+  width: 443px;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -10,18 +10,20 @@
   <body>
 
    <header class="main-header">
-      <nav class="main-navigation">
-        <a class="main-header-logo" href="index.html">
-          <img src="css/img/nerds-logo.svg" alt="Логотип студии Нёрдс" width="160" height="65">
-        </a>
-        <ul class="site-navigation">
-          <li><a href="studio.html">Студия</a></li>
-          <li><a href="clientage.html">Клиенты</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-        <a href="#" class="basket">Корзина</a>
-      </nav>
+      <div class="main-navigation-wrapper">
+          <nav class="main-navigation">
+            <a class="main-header-logo" href="index.html">
+              <img src="css/img/nerds-logo.svg" alt="Логотип студии Нёрдс" width="160" height="65">
+            </a>
+            <ul class="site-navigation">
+              <li><a href="studio.html">Студия</a></li>
+              <li><a href="clientage.html">Клиенты</a></li>
+              <li><a href="catalog.html">Магазин</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <a href="#" class="basket">Корзина</a>
+          </nav>
+      </div>
     	<section class="slider">
     		<div class="container">
                 <h2 class="visually-hidden">Приемущества</h2>
@@ -54,71 +56,73 @@
     	</section>
     </header>
 
-    <main class="container">
-    	<h1 class="visually-hidden">nёrds - студия веб разработки</h1>
-
-    	
-    	<section class="services">
-    		<h2 class="visually-hidden">услуги</h2>
-    		<ul class="service-items">
-    			<li class="service-item">
-    				<h3>Веб-сайты</h3>
-    				<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-    				<a class="button service-item-button" href="#">Заказать</a>
-    			</li>
-    			<li class="service-item">
-    				<h3>Приложения</h3>
-    				<p>Покорите топ-19 приложений в AppStore и Google Play</p>
-    				<a class="button service-item-button button2" href="#">Заказать</a>
-    			</li>
-    			<li class="service-item">
-    				<h3>Презентации</h3>
-    				<p>Вы даже не подозреваете, насколько вы изумительны!</p>
-    				<a class="button service-item-button button3" href="#">Заказать</a>
-    			</li>
-    		</ul>
-    	</section>
-
-    	<section class="about-us">
-    		<div class="about-about">
-                <div class="about">
-                                <h2>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
-                                <p class="principles">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превые креатива. Работаем не покладая рук, как роботы.</p>
-                                <p class="order-types">Выполняем заказы на разработку:</p>
-                                <ul>
-                                    <li class="order-type">Веб-сайтов люой сложности</li>
-                                    <li class="order-type">Мобильных приложени для IOS и Android</li>
-                                    <li class="order-type">Слайдшоу и видео для корпоративных презентаций</li>
+    <main>
+    	<div class="container">
+            <h1 class="visually-hidden">nёrds - студия веб разработки</h1>
+            
+            
+            <section class="services">
+                <h2 class="visually-hidden">услуги</h2>
+                <ul class="service-items">
+                    <li class="service-item">
+                        <h3>Веб-сайты</h3>
+                        <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+                        <a class="button service-item-button" href="#">Заказать</a>
+                    </li>
+                    <li class="service-item">
+                        <h3>Приложения</h3>
+                        <p>Покорите топ-19 приложений в AppStore и Google Play</p>
+                        <a class="button service-item-button button2" href="#">Заказать</a>
+                    </li>
+                    <li class="service-item">
+                        <h3>Презентации</h3>
+                        <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+                        <a class="button service-item-button button3" href="#">Заказать</a>
+                    </li>
+                </ul>
+            </section>
+            
+            <section class="about-us">
+                <div class="about-about">
+                            <div class="about">
+                                            <h2>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
+                                            <p class="principles">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превые креатива. Работаем не покладая рук, как роботы.</p>
+                                            <p class="order-types">Выполняем заказы на разработку:</p>
+                                            <ul>
+                                                <li class="order-type">Веб-сайтов люой сложности</li>
+                                                <li class="order-type">Мобильных приложени для IOS и Android</li>
+                                                <li class="order-type">Слайдшоу и видео для корпоративных презентаций</li>
+                                            </ul>
+                                        </div>
+                            <div class="percent-block">
+                                <img src="css/img/nerds-illustration.jpg" alt="logo" width="360" height="208">
+                                <b>C 2004 года любим точность во всем:</b>
+                                <ul class="percent-list">
+                                    <li>
+                                        <p class="percent">146%</p>
+                                        <p class="percent-description">Уровень самоотдачи</p>
+                                    </li>
+                                    <li>
+                                        <p class="percent">100%</p>
+                                        <p class="percent-description">Соблюдение сроков</p>
+                                    </li>
+                                    <li>
+                                        <p class="percent">50%</p>
+                                        <p class="percent-description">Минимальная предоплата</p>
+                                    </li>
                                 </ul>
                             </div>
-                <div class="percent-block">
-                    <img src="css/img/nerds-illustration.jpg" alt="logo" width="360" height="208">
-                    <b>C 2004 года любим точность во всем:</b>
-                    <ul class="percent-list">
-                        <li>
-                            <p class="percent">146%</p>
-                            <p class="percent-description">Уровень самоотдачи</p>
-                        </li>
-                        <li>
-                            <p class="percent">100%</p>
-                            <p class="percent-description">Соблюдение сроков</p>
-                        </li>
-                        <li>
-                            <p class="percent">50%</p>
-                            <p class="percent-description">Минимальная предоплата</p>
-                        </li>
-                    </ul>
+                        </div>
+            
+                <div class="partnership">
+                    <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="css/img/logo-1.png" alt="логотип академии" width="199" height="68"></a>
+                    <img src="css/img/logo-2.png" alt="логотип барбершопа" width="209" height="87">
+                    <img src="css/img/logo-3.png" alt="логотип с очками" width="185" height="52">
+                    <img src="css/img/logo-4.png" alt="логотип мишки" width="173" height="84">    
                 </div>
-            </div>
-
-    		<div class="partnership">
-    			<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="css/img/logo-1.png" alt="логотип академии" width="199" height="68"></a>
-    			<img src="css/img/logo-2.png" alt="логотип барбершопа" width="209" height="87">
-    			<img src="css/img/logo-3.png" alt="логотип с очками" width="185" height="52">
-    			<img src="css/img/logo-4.png" alt="логотип мишки" width="173" height="84">	
-    		</div>
-
-    	</section>
+            
+            </section>
+        </div>
 
     	<section class="modal modal-map">
         	<h2 class="visually-hidden">Как до нас добраться</h2>
